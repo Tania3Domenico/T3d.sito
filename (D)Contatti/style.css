@@ -1,0 +1,223 @@
+/*T&D.2023*/
+/*t3d.website@gmail.com*/
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    
+  }
+  
+  :root {
+    /*Color*/
+    --primary: #b5c9c3;
+    --secondary: #cab1bd;
+    --tertiary: #9f9aa4;
+    --white: #ffffff;
+    --black: #393d3f;
+  
+    /*Font size*/
+    --mega: 155px;
+    --big: 37px;
+    --medium: 30px;
+    --small: 25px;
+    --mini: 20px;
+  }
+  
+  #image {
+    z-index: +1;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  #menu {
+    z-index: 3;
+    display: flex;
+    right: 20px;
+    position: absolute;
+    top: 10px;
+    right: 16px;
+  }
+  
+  .menuTab {
+    margin: 0 7px;
+    font-size: 19px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    color: #000000;
+  }
+
+  .menuTab1 {
+    margin: 0 7px;
+    font-size: 19px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    
+  }
+   
+  #LogoTD {
+    width: 15%;
+    max-width: 15%;
+    min-width: 10%;
+
+  }
+
+
+  #contatti {
+    margin-left: 300px;
+    margin-top: 150px;
+    margin-bottom: 200px
+  }
+
+
+  #telefono, #email, #instagram, #facebook {
+    float: left;
+    width: 100px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+ 
+  #informazione1, #informazione2, #informazione3, #informazione4 {
+    margin-left: 320px;
+    padding-bottom: 0;
+    padding-top: 35px;
+    font-size: 20px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  } 
+  
+
+
+  footer {
+    border-top: 1px solid var(--tertiary);
+    /* primary-color */
+    text-align: center;
+    padding: 30px 10px;
+    line-height: 1.6em;
+    font-size: 0.8em;
+    background-color: var(--tertiary);
+    /* primary color*/
+    color: #fff;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  footer p {
+    margin-bottom: -15px;
+  }
+  
+  footer a {
+    color: #000000;
+    /* secondary-color*/
+  }
+  
+  footer a:hover {
+    color: #292929;
+    /* light seconday color*/
+  }
+  
+  footer .credits {
+    max-width: 300px;
+    margin: auto;
+  }
+  
+  footer .credits a img {
+    -o-transition: opacity 0.2 ease-in;
+    -ms-transition: opacity 0.2s ease-in;
+    -moz-transition: opacity 0.2s ease-in;
+    -webkit-transition: opacity 0.2s ease-in;
+    transition: opacity 0.2s ease;
+  }
+  
+  footer .credits a img:hover {
+    opacity: 0.6;
+  }
+  
+  footer .social-cont .social-list {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 10px 0;
+  }
+  
+  footer .social-cont .social-list>li {
+    margin: 8px 8px 8px 0;
+    display: inline-block;
+    vertical-align: top;
+    height: 32px;
+    width: 32px;
+    border-radius: 6em;
+    background-color: #000000;
+    /* secondary-color*/
+  }
+  
+  footer .social-cont .social-list li img {
+    width: 32px;
+  }
+  
+  footer .social-cont .social-list>li:hover {
+    background: #292929;
+    /* light seconday color*/
+  }
+
+  @media only screen and (max-width: 768px) {
+    :root{
+      /*Font size*/
+      --mega: 70px;
+      --big: 22px;
+      --medium: 20px;
+      --small: 16px;
+      --mini: 13px;
+   }
+  
+    #menu{
+    display: flex;
+    position: absolute;
+    top: 11px;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    left: 50px;
+   }
+  
+   #image{
+    opacity: 0%;
+   }
+  
+   
+  
+   #omino{
+    display: flex;
+      left: 250px;
+      position: absolute;
+      top: 90px;
+      width: 90px;
+      height: auto;
+   }
+
+   #contatti {
+    margin-left: 40px;
+    margin-top: 80px;
+    margin-bottom: 200px;
+   }
+
+   #telefono, #email, #instagram, #facebook {
+    float: left;
+    width: 100px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+   }
+
+   #informazione1, #informazione2, #informazione3, #informazione4 {
+    margin-left: 180px;
+    padding-bottom: 0;
+    padding-top: 35px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }
+
+  }
+
+  a {
+    text-decoration: none;
+  }
