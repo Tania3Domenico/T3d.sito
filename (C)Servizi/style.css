@@ -1,0 +1,302 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+  }
+  
+  :root {
+    /*Color*/
+    --primary: #b5c9c3;
+    --secondary: #cab1bd;
+    --tertiary: #9f9aa4;
+    --white: #ffffff;
+    --black: #393d3f;
+  
+    /*Font size*/
+    --mega: 155px;
+    --big: 37px;
+    --medium: 30px;
+    --small: 25px;
+    --mini: 20px;
+  }
+  
+  #background {
+    display: flex;
+    right: 0px;
+    position: absolute;
+    top: 0px;
+    
+    
+  }
+  
+  #menu {
+    display: flex;
+    right: 20px;
+    position: absolute;
+    top: 11px;
+    right: 16px;
+  }
+  
+  .spacer {height: 100px;}
+
+  .menuTab {
+    margin: 0 7px;
+    font-size: 19px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    color: #000000;
+  }
+
+  .menuTab1 {
+    margin: 0 7px;
+    font-size: 19px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    
+  }
+  
+  .pagina {
+    background-color: #89b1f3;
+  }
+  
+  .button {
+    display: flex;
+    left: 80px;
+    position: absolute;
+    top: 65px;
+    font-size: 18px;
+    background-color: #e7cfcd;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    min-height: 20px;
+    min-width: 30px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  #omino {
+    display: flex;
+    left: 220px;
+    position: absolute;
+    top: 30px;
+    width: 100px;
+    height: auto;
+  }
+  
+  #Parla {
+    font-size: x-small;
+  }
+
+  .spiega {
+    position: absolute;
+    left: 175px;
+    top: 255px;
+  }
+
+  .PROCESSO {
+    color: #e7cfcd;
+  }
+
+  .icona1 {
+    position: absolute;
+    left: 280px;
+    top: 440px;
+    width: 160px;
+    height: auto;
+  }
+
+  .step {
+    position: absolute;
+    left: 490px;
+    top: 480px;
+  }
+
+  .icona2 {
+    position: absolute;
+    left: 280px;
+    top: 660px;
+    width: 160px;
+    height: auto;
+  }
+
+  .step2 {
+    position: absolute;
+    left: 490px;
+    top: 680px;
+  }
+
+  .icona3 {
+    position: absolute;
+    left: 280px;
+    top: 880px;
+    width: 160px;
+    height: auto;
+  }
+
+  .step3 {
+    position: absolute;
+    left: 490px;
+    top: 880px;
+  }
+
+  footer{
+	border-top: 1px solid var(--tertiary); /* primary-color */
+	text-align:center;
+	padding:30px 10px;
+	line-height: 1.6em;
+	font-size:0.8em;
+	background-color: var(--tertiary);/* primary color*/
+	color: #fff;
+}
+
+footer a{
+	color:#000000; /* secondary-color*/
+}
+
+footer a:hover{
+	color:#292929; /* light seconday color*/
+}
+
+footer .credits {
+	max-width:300px;
+	margin:auto;
+}
+
+footer .credits a img {
+  -o-transition: opacity .2 ease-in;
+  -ms-transition: opacity .2s ease-in;
+  -moz-transition: opacity .2s ease-in;
+  -webkit-transition: opacity .2s ease-in;
+  transition: opacity .2s ease
+}
+
+footer .credits a img:hover {
+	opacity:0.6;
+}
+
+footer .social-cont .social-list {
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+
+footer .social-cont .social-list > li {
+	margin: 8px 8px 8px 0;
+	display: inline-block;
+	vertical-align: top;
+	height: 32px;
+	width: 32px;
+	border-radius: 6em;
+	background-color:#000000; /* secondary-color*/
+}
+
+footer .social-cont .social-list li img {
+	width: 32px
+}
+
+footer .social-cont .social-list > li:hover {
+background:#292929; /* light seconday color*/
+}
+
+@media only screen and (max-width: 768px) {
+  :root{
+    /*Font size*/
+    --mega: 70px;
+    --big: 22px;
+    --medium: 20px;
+    --small: 16px;
+    --mini: 13px;
+ }
+
+  #menu{
+  display: flex;
+  position: absolute;
+  top: 11px;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  left: 50px;
+ }
+
+ #background{
+  opacity: 0%;
+ }
+
+ .button{
+  display: flex;
+    left: 50px;
+    position: absolute;
+    top: 120px;
+    font-size: 18px;
+    background-color: #e7cfcd;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    min-height: 10px;
+    min-width: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    color: var(--black);
+ }
+
+ #omino{
+  display: flex;
+    left: 190px;
+    position: absolute;
+    top: 90px;
+    width: 90px;
+    height: auto;
+ }
+
+ .spiega {
+  position: absolute;
+  left: 80px;
+  top: 255px;
+}
+
+ .icona1 {
+  position: absolute;
+  left: 30px;
+  top: 440px;
+  width: 160px;
+  height: auto;
+}
+
+ .step {
+  position: absolute;
+  left: 230px;
+  top: 480px;
+}
+ 
+ .icona2 {
+  position: absolute;
+  left: 30px;
+  top: 660px;
+  width: 160px;
+  height: auto;
+}
+ .step2 {
+  position: absolute;
+  left: 220px;
+  top: 700px;
+}
+
+ .icona3 {
+  position: absolute;
+  left: 30px;
+  top: 880px;
+  width: 160px;
+  height: auto;
+}
+
+ .step3 {
+  position: absolute;
+  left: 220px;
+  top: 920px;
+}
+}
