@@ -1,0 +1,399 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+  }
+  
+  :root {
+    /*Color*/
+    --primary: #b5c9c3;
+    --secondary: #cab1bd;
+    --tertiary: #9f9aa4;
+    --white: #ffffff;
+    --black: #393d3f;
+  
+    /*Font size*/
+    --mega: 155px;
+    --big: 37px;
+    --medium: 30px;
+    --small: 25px;
+    --mini: 20px;
+  }
+  
+  #background {
+    display: flex;
+    right: 0px;
+    position: absolute;
+    top: 0px;
+    
+    
+  }
+  
+  #menu {
+    display: flex;
+    right: 20px;
+    position: absolute;
+    top: 11px;
+    right: 16px;
+    justify-content: space-around;
+  }
+  
+  .spacer {height: 100px;}
+
+  .menuTab {
+    margin: 0 7px;
+    font-size: 19px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    color: #000000;
+  }
+
+  .menuTab1 {
+    margin: 0 7px;
+    font-size: 19px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    
+  }
+
+  
+  .pagina {
+    background-color: #89b1f3;
+  }
+  
+  .button {
+    display: flex;
+    left: 80px;
+    position: absolute;
+    top: 65px;
+    font-size: 18px;
+    background-color: #e7cfcd;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    min-height: 20px;
+    min-width: 30px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    color: var(--black);
+  }
+  
+  a {
+    text-decoration: none;
+  }  
+
+
+  #omino {
+    display: flex;
+    left: 220px;
+    position: absolute;
+    top: 30px;
+    width: 100px;
+    height: auto;
+  }
+  
+  #Parla {
+    font-size: x-small;
+    color: #000000;
+  }
+  
+  #noi-omini {
+    max-width: 450px;
+    min-width: 300px;
+    float: left;
+  }
+  
+  #P-chisiamo {
+    padding: 230px;
+  }
+  
+  #chi-siamo {
+      text-align: left;
+      font-family: Arial;
+  }
+  
+      #risposta {
+      font-size: medium;
+      font-family: Arial;
+      margin-top: 25px;
+      }
+
+  #Competenze{
+    background-color: var(--tertiary);
+  }
+
+ 
+
+
+
+  footer{
+	border-top: 1px solid var(--tertiary); /* primary-color */
+	text-align:center;
+	padding:30px 10px;
+	line-height: 1.6em;
+	font-size:0.8em;
+	background-color: var(--tertiary);/* primary color*/
+	color: #fff;
+}
+
+footer a{
+	color:#000000; /* secondary-color*/
+}
+
+footer a:hover{
+	color:#292929; /* light seconday color*/
+}
+
+footer .credits {
+	max-width:300px;
+	margin:auto;
+}
+
+footer .credits a img {
+  -o-transition: opacity .2 ease-in;
+  -ms-transition: opacity .2s ease-in;
+  -moz-transition: opacity .2s ease-in;
+  -webkit-transition: opacity .2s ease-in;
+  transition: opacity .2s ease
+}
+
+footer .credits a img:hover {
+	opacity:0.6;
+}
+
+footer .social-cont .social-list {
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+
+footer .social-cont .social-list > li {
+	margin: 8px 8px 8px 0;
+	display: inline-block;
+	vertical-align: top;
+	height: 32px;
+	width: 32px;
+	border-radius: 6em;
+	background-color:#000000; /* secondary-color*/
+}
+
+footer .social-cont .social-list li img {
+	width: 32px
+}
+
+footer .social-cont .social-list > li:hover {
+background:#292929; /* light seconday color*/
+}
+
+.container{
+  background-color: #cab1bd;
+}
+
+.textcontainer{
+  color: #ffffff;
+  width: 30px;
+  border-left: 50px;
+}
+
+#arrow{
+  width:100%;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#arrow img{
+  width: 50px;
+}
+.contentContainer{
+  width: 95%;
+  height: fit-content;
+  height: 300px;
+  border-left: solid white 4px;
+  position: relative;
+  left: 100px;
+}
+
+.lingue{
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin: 20px 0;
+  margin-left: 60px;
+  
+}
+.lingue img{
+  height: calc(var(--big) + 15px);
+  margin-right: 10px;
+}
+.lingue span{
+  margin-right: 10px;
+}
+
+.competenzeColumn{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#title{
+  width: fit-content;
+  font-family: var(--bebas);
+  color: #fff;
+  font-size: var(--mega);
+  line-height: var(--mega);
+}
+#subtitle{
+  width: fit-content;
+  font-family: var(--roboto);
+  color: #fff;
+  font-size: var(--small);
+}
+
+.contentSubtitle{
+  margin-top:30px;
+  margin-left: 35px;
+  font-size: var(--medium);
+}
+
+.bigText{
+  font-size: var(--small);
+  margin-left: 50px;
+  margin: 20px 50px;
+}
+
+.progress{
+  width:400px;
+  height: 10px;
+  background-color: var(--white);
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  margin: 10px 0;
+  margin-left: 50px;
+  
+}
+
+
+.popup .competenzeColumn{
+  margin: 0 auto;
+}
+.popup .progress{
+  width:150px;
+  background-color: var(--black);  
+}
+
+.progress div{
+  content: "";
+  background-color: var(--primary);
+  position: absolute;
+  height: 10px;
+  top:0;
+  left: 0;
+}
+
+#menu div:hover{
+  transform: scale(1.03);
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.548);
+}
+
+
+@media only screen and (max-width: 768px) {
+  :root{
+    /*Font size*/
+    --mega: 70px;
+    --big: 22px;
+    --medium: 20px;
+    --small: 16px;
+    --mini: 13px;
+ }
+
+  #menu{
+  display: flex;
+  position: absolute;
+  top: 11px;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  left: 50px;
+ }
+
+ #background{
+  opacity: 0%;
+ }
+
+ .button{
+  display: flex;
+    left: 50px;
+    position: absolute;
+    top: 120px;
+    font-size: 18px;
+    background-color: #e7cfcd;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    min-height: 10px;
+    min-width: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    color: var(--black);
+ }
+
+ #omino{
+  display: flex;
+    left: 190px;
+    position: absolute;
+    top: 90px;
+    width: 90px;
+    height: auto;
+ }
+
+ .contentContainer{
+  width: 95%;
+    height: fit-content;
+    height: 300px;
+    border-left: solid white 4px;
+    position: relative;
+    left: 20px;
+ }
+
+ .lingue {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin: 10px 0;
+  margin-left: 30px;
+ }
+
+ .bigText {
+  font-size: var(--small);
+  margin-left: 50px;
+  margin: 20px 30px;
+ }
+
+ .progress {
+  width: 300px;
+  height: 10px;
+  background-color: var(--white);
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  margin: 10px 0;
+  margin-left: 20px;
+ }
+
+ #P-chisiamo{
+  padding: 0;
+  margin: 30px 20px;
+ }
+
+ #noi-omini{
+  margin-top: 200px;
+ }
+}
+ 
