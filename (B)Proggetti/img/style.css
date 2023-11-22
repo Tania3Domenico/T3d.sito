@@ -1,0 +1,262 @@
+/*T&D.2023*/ 
+/*t3d.website@gmail.com*/ 
+
+
+*{
+    padding:0;
+    margin:0;
+    outline: none;
+}
+
+:root{
+    /*Color*/ 
+    --primary:#B5C9C3;
+    --secondary:#CAB1BD;
+    --tertiary: #9F9AA4;
+    --white: #ffffff;
+    --black: #393D3F;
+ 
+    /*Font size*/
+    --mega: 155px;
+    --big: 37px;
+    --medium: 30px;
+    --small: 25px;
+    --mini: 20px;
+}
+
+#background{
+    z-index: +1;
+    top:0;
+    right:0;
+}
+
+#menu{
+    display: flex;
+    right:20px;
+        position: absolute;
+        top: 10px;
+        left: 16px;
+}
+
+.menuTab{
+    margin:0 7px;
+    font-size:19px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    color: #000000;
+}
+
+.menuTab1 {
+    margin: 0 7px;
+    font-size: 19px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    
+  }
+
+.pagina{
+    background-color: #89B1F3;
+}
+
+.button{
+    display: flex;
+    right:180px;
+    position: absolute;
+    top: 50px;
+    font-size: 18px;
+    background-color: #E7CFCD;
+    border: none; 
+    border-radius: 10px; 
+    padding: 15px;
+    min-height: 20px; 
+    min-width: 30px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+a {
+    text-decoration: none;
+  }
+
+
+#Parla{
+    font-size: x-small;
+}
+
+#omino{
+    display: flex;
+    right:50px;
+    position: absolute;
+    top: 40px;
+    width: 100px;
+    height: auto;
+}
+
+#progetti{
+    position: absolute;
+    text-align: center;
+    right: 200px;
+}
+
+#rett{
+    position: static; 
+    right: 385px;
+    width: 450px;
+    height: auto;
+}
+
+.spacer {height: 100px;}
+
+#slider{
+    width: 500px;
+    position: absolute;
+    right: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px #CAB1BD;
+}
+#img_slider{
+    width:100%;
+}
+#img_slider img{
+    width:100%;
+    display: none;
+}
+#img_slider img:nth-child(1){
+    display:block;
+}
+#slider button{
+    width:50px;
+    height:50px;
+    border:solid #CAB1BD 2px;
+    color: #CAB1BD;
+    outline:none;
+    cursor: pointer;
+    background:none;
+    border-radius: 25px;
+    font-size:40px;
+    transition: all 0.1s ease-in-out;
+}
+#slider button:hover{
+    transform:scale(1.05);
+}
+#slider button:active{
+    transform:scale(0.95);
+}
+
+
+footer{
+	border-top: 1px solid var(--tertiary); /* primary-color */
+	text-align:center;
+	padding:30px 10px;
+	line-height: 1.6em;
+	font-size:0.8em;
+	background-color: var(--tertiary);/* primary color*/
+	color: #fff;
+}
+
+footer a{
+	color:#000000; /* secondary-color*/
+}
+
+footer a:hover{
+	color:#292929; /* light seconday color*/
+}
+
+footer .credits {
+	max-width:300px;
+	margin:auto;
+}
+
+footer .credits a img {
+  -o-transition: opacity .2 ease-in;
+  -ms-transition: opacity .2s ease-in;
+  -moz-transition: opacity .2s ease-in;
+  -webkit-transition: opacity .2s ease-in;
+  transition: opacity .2s ease
+}
+
+footer .credits a img:hover {
+	opacity:0.6;
+}
+
+footer .social-cont .social-list {
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+
+footer .social-cont .social-list > li {
+	margin: 8px 8px 8px 0;
+	display: inline-block;
+	vertical-align: top;
+	height: 32px;
+	width: 32px;
+	border-radius: 6em;
+	background-color:#000000; /* secondary-color*/
+}
+
+footer .social-cont .social-list li img {
+	width: 32px
+}
+
+footer .social-cont .social-list > li:hover {
+background:#292929; /* light seconday color*/
+}
+
+@media only screen and (max-width: 768px) {
+    :root{
+      /*Font size*/
+      --mega: 70px;
+      --big: 22px;
+      --medium: 20px;
+      --small: 16px;
+      --mini: 13px;
+   }
+  
+    #menu{
+    display: flex;
+    position: absolute;
+    top: 11px;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    left: 50px;
+   }
+  
+   #background{
+    opacity: 0%;
+   }
+  
+   .button{
+   top: 115px;
+   left: 50px;
+   }
+  
+   #omino{
+    display: flex;
+      left: 250px;
+      position: absolute;
+      top: 90px;
+      width: 90px;
+      height: auto;
+   }
+
+   #rett {
+    position: absolute;
+    right: 40px;
+    width: 350px;
+    height: auto;
+   }
+
+   #slider{
+    width: 360px;
+    position: absolute;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px #CAB1BD;
+   }
+}  
