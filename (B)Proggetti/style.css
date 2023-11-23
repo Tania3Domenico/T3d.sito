@@ -108,9 +108,7 @@ a {
 .spacer {height: 100px;}
 
 #slider{
-    width: 500px;
-    position: absolute;
-    right: 400px;
+    width: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
