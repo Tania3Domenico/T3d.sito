@@ -227,10 +227,22 @@ background:#292929; /* light seconday color*/
     opacity: 0%;
    }
   
-   .button{
-   top: 115px;
-   left: 50px;
-   }
+  .button{
+    display: flex;
+    left: 50px;
+    position: absolute;
+    top: 120px;
+    font-size: 18px;
+    background-color: #e7cfcd;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    min-height: 10px;
+    min-width: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    color: var(--black);
+ }
   
    #omino{
     display: flex;
