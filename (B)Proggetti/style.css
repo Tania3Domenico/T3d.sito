@@ -108,7 +108,8 @@ a {
 .spacer {height: 100px;}
 
 #slider{
-    width: 500px;
+    width: 500px;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -229,7 +230,7 @@ background:#292929; /* light seconday color*/
   
   .button{
     display: flex;
-    left: 50px;
+    right: 50px;
     position: absolute;
     top: 120px;
     font-size: 18px;
