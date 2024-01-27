@@ -1,111 +1,105 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    
+    <title>T&D-Home</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>T&D Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="img/D.png" type="image/png">
+    <link rel="shortcut icon" href="img/D.png" type="image/x-icon">
+    <meta name="theme-color" content="#62929E">
 </head>
+
 <body>
-
-    <img src="img/Menu.png" id="background">
-
-
     <div id="navbar">
         <div id="menu">
-            <div><a class="menuTab1" href="https://t3d-home.netlify.app">Home</a></div>
-            <div >
-              <a class="menuTab" href="https://t3d-progetti.netlify.app" >I nostri progetti</a></div>
-            <div><a class="menuTab" href="https://t3d-servizi.netlify.app">Servizi</a></div>
-            <div><a class="menuTab" href="https://t3d-contatti.netlify.app">Contatti</a></div>
-        </div>
-  
-        <div class="Parla">
-          <button type="button" class="button" ><a href="https://t3d-contatti.netlify.app">Crea il tuo sito</a></button>
-        
-  
-          <img src="img/Omino-parla.png" id="omino">
-  
+            <div><a href="https://t3d-home.netlify.app">Home</a></div>
+            <div><a href="https://t3d-progetti.netlify.app">Progetti</a></div>
+            <div><a href="https://t3d-servizi.netlify.app">Servizi</a></div>
+            <div><a href="https://t3d-contatti.netlify.app">Contatti</a></div>
         </div>
 
-        <div class="spacer"></div>
-        <div class="spacer"></div>
-        
-        <div id="2parte-della-pagina">
+        <div class="Parla">
+            <button type="button" class="button" ><a href="https://t3d-contatti.netlify.app">Crea il tuo sito</a></button>
+          
+    
+            <img src="img/Omino-parla.png" id="omino">
+    
+          </div>
+
+        <div id="midNav2">
+            <img src="img/omini pag1.png" id="imgGiulio" alt="Giulio Paesani">
+        </div>
+
+        <div id="midNav">
             <div>
-                <img src="img/omini pag1.png" id="noi-omini" >
-            </div>
-            <div id="P-chisiamo">
-                <h2 id="chi-siamo">Chi siamo...</h2>
-                <p id="risposta">Siamo Domenico e Tania, due menti creative con una passione condivisa 
+                <p id="title">Chi siamo...</p>
+                <p id="subtitle">Siamo Domenico e Tania, due menti creative con una passione condivisa 
                     per l'arte e il design. Portiamo un tocco unico alle nostre creazioni 
                     attraverso la nostra abilità nel design grafico e con un'energia
                     fresca e un occhio attento ai dettagli. Insieme, cerchiamo di portare innovazione
-                    e originalità in ogni progetto che affrontiamo. <br>
-                    Condividiamo una visione comune di creare opere che ispirino e incantino,
-                    e questo portfolio è il nostro spazio per condividere con voi
-                    il nostro mondo di creatività e ispirazione. <br>
-                    Siamo entusiasti di condividere con voi i nostri progetti e speriamo
-                    che possiate trovare ispirazione in ciò che facciamo.</p>
+                    e originalità in ogni progetto che affrontiamo. 
+                    </p>
             </div>
         </div>
 
+        
+    </div>
 
-
-              
-
-       <div class="container">
-        <div id="arrow">
-            <img src="img/arrow.png">
+    <div id="content">
+        <div id="arrowContainer">
+                <img src="img/arrow.png"></a>
         </div>
-
-        <div class="contentContainer">
-            <div class="contentSubtitle">Lingue</div>
-       <div class="lingue">
-           <img src="img/italiano.webp">
-           <span class="bigText boldText">Italiano - Madrelingua</span>
-       </div>
-       <div class="lingue">
-           <img src="img/inglese.webp">
-           <span class="bigText boldText">Inglese - Base/Intermedio (Livello A2)</span>
-       </div>
-        </div>
-        <div class="contentContainer">
-                <div class="contentSubtitle">Compentenze di programmazione</div>
-                <div>
-                    <div class="bigText">HTML</div>
-                    <div class="progress">
-                        <div style="width: 90%"></div>
-                    </div>
-                </div>
-                <div>
-                    <div class="bigText">CSS</div>
-                    <div class="progress">
-                        <div style="width: 70%"></div>
-                    </div>
-                </div>
-                <div>
-                    <div class="bigText">JavaScript</div>
-                    <div class="progress">
-                        <div style="width: 40%"></div>
-                    </div>
-                </div>
-                <div>
-                    <div class="bigText">Python</div>
-                    <div class="progress">
-                        <div style="width: 40%"></div>
-                    </div>
-                </div>
-        </div>
-        <div class="contentContainer"></div>
 
         
 
-       </div>
+        <div class="contentContainer" id="istruzione" titolo="Lingue">
+            <div class="lingue">
+                <img src="./img/italiano.webp">
+                <span class="smallText boldText">Italiano</span><span class="miniSText">- Madrelingua</span>
+            </div>
+            <div class="lingue">
+                <img src="./img/inglese.webp">
+                <span class="smallText boldText">Inglese</span><span class="miniSText">B1</span>
+            </div>
+            
 
-       
+        </div>
+
+        <div class="contentContainer" id="competenze" titolo="Competenze di programmazione">
+            <div>    
+                <div class="competenzeColumn">
+                    <div>
+                        <div class="smallText">HTML</div>
+                        <div class="progress">
+                            <div style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="smallText">CSS</div>
+                        <div class="progress">
+                            <div style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="smallText">JavaScript</div>
+                        <div class="progress">
+                            <div style="width: 50%"></div>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <div class="smallText">Python</div>
+                        <div class="progress">
+                            <div style="width: 40%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <footer>
             <p>ITALIA </p><br>
             <a class="trans-color-text" href="#">t3d.website@gmail.com</a> | <span itemprop="telephone"><a href="#">+39 338 212 1847 / +39 380 588 9667
@@ -114,8 +108,7 @@
            <div class="social-cont">
            <ul class="social-list">
        
-           <li><a target="_blank" href="https://www.facebook.com"><img src="https://www.chefstudio.it/img/facebook-icon.png"  title="facebook" alt="Facebook icon"></a></li>
-           <li><a target="_blank" href="https://www.instagram.com"><img src="https://www.chefstudio.it/img/instagram-icon.png" title="Instagram" alt="Instagram icon"></a></li>
+           <li><a target="_blank" href="https://instagram.com/t3d.website?igshid=OGQ5ZDc2ODk2ZA=="><img src="https://www.chefstudio.it/img/instagram-icon.png" title="Instagram" alt="Instagram icon"></a></li>
        
            </ul>
              <div class="floatstop"></div>
@@ -127,6 +120,9 @@
              </div>
        
          </footer>
+    </div>
+       
     
 </body>
+
 </html>
